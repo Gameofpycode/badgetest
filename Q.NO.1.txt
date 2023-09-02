@@ -1,0 +1,39 @@
+    CSS BOX-MODEL:
+
+    CSS box-model consisiting of the differnt types of prperties...as mention below
+
+    ==>levels of box model is
+    1)width and height
+
+    2)padding
+
+    3)border
+
+    4)margin
+
+        
+            mentioned above levels describes the css box model in the orderes level,
+    each level consiting of thier different  behaviour the combination of each level of property becomes the box_model of then CSS
+
+    deiscription about box model of the css properies as followes:
+
+    width:
+
+            width is used to specifies the width of the area of the required content.the value  must be in pixesls,em,rem,in percentage depeniding on parante body size.
+
+    height:
+    
+            height is used to specifes the area of the area of the required content.the value must be in pixesls,em,rem,in percentage depeniding on parante body size.
+    
+    padding:
+
+            padding gives the gap between the conten and the adjacent elements or parante body or any adjacente elementes,the value must be in pixesls,em,rem,in percentage depeniding on parante body size and the negative valie is not allowed 
+
+    border:
+
+            boder this is shorthand property to give the boder to the content body alog with thi thinkness and color of that border poperty to the requred design 
+
+    margin:
+     
+            margin gives the margin space from all the side of left, right and top, bottom of the content and also that spce is between the conten and the adjacent elements or parante body or any adjacente elementes,the value must be in pixesls,em,rem,in percentage depeniding on parante body size and the negative valie is not allowed 
+

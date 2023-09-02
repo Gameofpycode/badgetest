@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(238, 218, 103);
+            position: relative;
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+
+        }
+        header .logo{
+            color: rgb(255, 187, 0);
+            text-transform: uppercase;
+
+        }
+        header ul {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        header ul li{
+            width: 150px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px #fff;
+            background-color: rgb(240, 166, 47);
+            margin: 0px 10px ;
+            border-radius: 10px;
+            
+            
+        }
+        header nav ul li:hover{
+            background-color:rgb(233, 50, 50);
+            color: rgb(0, 0, 0); 
+            transform: scale(1.1);
+            transition: 1s;
+            
+        }
+
+        header ul li a{
+           text-decoration: none;
+           color: #fff;
+            
+            
+        }
+        select{
+            width: 50px;
+            height: 40px;
+            background: none;
+            border: none;
+            outline: none;
+        }
+        select a{
+            color: #fff;
+            font-size: 2em;
+            background-color: aqua;
+        }
+        select option{
+            width: 100px;
+            height: 40px;
+            background: none;
+            border: none;
+        }
+        .blk1{
+            width: 100%;
+            height: 90%;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blk1 h1{
+            font-size: 5em;
+        }
+        .blk2{
+            width: 100%;
+            height: 90%;
+            background-color: rgb(115, 255, 0);
+        }
+        .blk3{
+            width: 100%;
+            height: 90%;
+            background-color: rgb(68, 0, 255);
+        }
+        .blk4{
+            width: 100%;
+            height: 90%;
+            background-color: rgb(255, 0, 255);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Sticky</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">servies</a></li>
+                <li><a href="">projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section class="blk1"><div><h1>scrol-up-down</h1></div></section>
+   <section class="blk2"></section>
+   <section class="blk3"></section>
+   <section class="blk4"></section>
+</body>
+</html>
